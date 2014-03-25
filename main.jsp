@@ -8,7 +8,7 @@
 </head>
 <body>
 <h1>
-Successful login to BankBox
+Successful login to BankBox. you can safely browse your file. 
 </h1>
 <%
     SAMLCredential credential = (SAMLCredential) SecurityContextHolder.getContext().getAuthentication().getCredentials();
